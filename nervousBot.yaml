@@ -1,0 +1,82 @@
+config: 
+  NFTHashtags: 
+    - nft
+    - nftart
+    - Nervous
+  Discord:
+    name: NervousBot
+    avatarUrl: https://pbs.twimg.com/profile_images/1548112327219654656/Pod_Dz1q_400x400.png
+    url: https://nervous.net
+projects: 
+- Name: Chill City Penguins
+  Twitter: https://twitter.com/chillcitynft
+  Symbol: CHILLCITY
+  Contract: '0xB209FBeeDbB907C452D15d9a54C51E99C4f901Cf'
+- Name: Dumpling Pets
+  Twitter: https://twitter.com/shawnimals
+  Symbol: DUMPLINGS
+  Contract: '0xA90c645E62BA05cc054866e8BC88560691Fe8EcF'
+- Name: Dumpling Pets Free
+  Twitter: https://twitter.com/shawnimals
+  Symbol: nuDUMPLINGS
+  Contract: '0xa364b507c705A5aE73045B7206b54Bf64F982172'
+- Name: Gachapon
+  Twitter: https://twitter.com/Gachapon_xyz
+  Symbol: GACHAPON
+  Contract: '0xE4cA5542B2fb60c88735165BC655102bdC70BE39'
+- Name: Adam Bomb Squad
+  Twitter: https://twitter.com/AdamBombSquad
+  Symbol: ABS
+  Contract: '0x7AB2352b1D2e185560494D5e577F9D3c238b78C5'
+- Name: Rare Ghost Club
+  Twitter: https://twitter.com/RareGhostClub
+  Symbol: RGC
+  Contract: '0x00FA82eA9BE4E24ec6D7ED86ef93bfe85b9a3e68'
+- Name: Munko
+  Twitter: https://twitter.com/munko
+  Symbol: MNKO
+  Contract: '0x885525B82e8ab86c5f463Cef0a4b19a43EF005c5'
+- Name: Abstract Diaspora Club
+  Twitter: https://twitter.com/ADCNFT
+  Symbol: ADCLUB
+  Contract: '0x0b471580741c3360Ed14C7cf084C739efC7d5204'
+- Name: Caked Apes
+  Twitter: https://twitter.com/CakedApes
+  Symbol: CAKE
+  Contract: '0xC1922A5aBFA18110827c0666b7bBac0389AB7396'
+- Name: WVRPS by Warpsound
+  Twitter: https://twitter.com/warpsound_ai
+  Symbol: WVRPS
+  Contract: '0xcBC67Ea382F8a006d46EEEb7255876BeB7d7f14d'
+- Name: Evo Kid Army by LTJ
+  Twitter: https://twitter.com/LessThanJake
+  Symbol: EVOKID
+  Contract: '0xE3432a379CF52143dc839f5F55a665a9a4821CF5'
+- Name: Oh My Gourd
+  Twitter: https://twitter.com/nervous_net
+  Symbol: OMG
+  Contract: '0xDAbdC67387d67bc468672aA2767B3F6ce5c65790'
+- Name: Cryptid Collective
+  Twitter: https://twitter.com/TheCryptidCo
+  Symbol: CRYPCO
+  Contract: '0x9BB7da8F68f15eCE32FE323246E7a1aBAC6D895D'
+- Name: Juice Crew
+  Twitter: https://twitter.com/JuiceCrewNFT
+  Symbol: JUICE
+  Contract: '0xB8B364464b1A6F22FDf67272356f19CaAB17C8b6'
+- Name: Exploding Kittens
+  Twitter: https://twitter.com/glowforge
+  Symbol: UDT
+  Contract: '0xE4655fDB98204f9566c33Ad9616Df2B3eBf7558D'
+- Name: Kate Micucci Lost Heart Collection
+  Twitter: https://twitter.com/katemicucci
+  Symbol: HEART
+  Contract: '0x593596843bdB07DB315005fD16abD565eAa23222'
+- Name: Nervous
+  Twitter: https://twitter.com/nervous_net
+  Symbol: NERVOUS
+  Contract: '0xaCDaaCf01Cc94B4661e617aDd1B5674D5B24602D'
+- Name: ChromaCats
+  Twitter: https://twitter.com/ChromaCatsNFT
+  Symbol: CC0
+  Contract: '0xdEE791F2f95Ad9DA0e00984b663B0BB9f75dea1F'
