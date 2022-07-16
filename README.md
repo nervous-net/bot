@@ -1,4 +1,5 @@
-The nervous transaction bot
+# The nervous transaction bot
 
-[]: # Language: markdown
-[]: # Path: README.md
+---
+
+Copilot wrote most of this. I wrote all the bugs - @harper
