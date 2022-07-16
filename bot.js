@@ -118,7 +118,7 @@ botEvents.on('PublishConsole', async (payload) => {
 
 botEvents.on('PublishTwitter', async (payload) => {
   logger.info(`Publishing to Twitter: ${payload.transactionHash}`)
-  payload.hashtags = getHashtags(payload)
+  // payload.hashtags = getHashtags(payload)
   const message = getMessage(payload)
   const url = `https://etherscan.io/tx/${payload.transactionHash}`
   
@@ -136,9 +136,20 @@ botEvents.on('PublishDiscord', async (payload) => {
 
 
 botEvents.on('Publish', async (payload) => {
+  
+  const tweet = nervousBotConfig.config.tweet
+  const discord = nervousBotConfig.config.tweet
+  if (tweet){
+    botEvents.emit('PublishTwitter', payload)
+  }
+  if (discord){
+    botEvents.emit('PublishDiscord', payload)
+  }
+
+  
   botEvents.emit('PublishConsole', payload)
-  botEvents.emit('PublishDiscord', payload)
-  botEvents.emit('PublishTwitter', payload)
+  
+  
 });
 
 // ---------------------------------------------------------------------------------- //
