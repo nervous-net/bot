@@ -1,6 +1,6 @@
 config: 
   tweet: false
-  discord: true
+  discord: false
   NFTHashtags: 
     - nft
     - nftart

@@ -136,9 +136,9 @@ botEvents.on('PublishDiscord', async (payload) => {
 
 
 botEvents.on('Publish', async (payload) => {
-  
+  logger.debug("Handling Publish event for bots")
   const tweet = nervousBotConfig.config.tweet
-  const discord = nervousBotConfig.config.tweet
+  const discord = nervousBotConfig.config.discord
   if (tweet){
     botEvents.emit('PublishTwitter', payload)
   }
