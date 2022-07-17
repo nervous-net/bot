@@ -141,9 +141,13 @@ botEvents.on('Publish', async (payload) => {
   const discord = nervousBotConfig.config.discord
   if (tweet){
     botEvents.emit('PublishTwitter', payload)
+  } else {
+    logger.debug("Not publishing to Twitter")
   }
   if (discord){
     botEvents.emit('PublishDiscord', payload)
+  }else {
+    logger.debug("Not publishing to discord")
   }
 
   
