@@ -1,6 +1,8 @@
 config: 
   tweet: true
-  discord: true
+  discord: false
+  transferEvents: false
+  mintEvents: false
   NFTHashtags: 
     - nft
     - nftart
