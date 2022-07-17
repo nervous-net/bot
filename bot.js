@@ -255,7 +255,7 @@ async function getNFTMetadata(contractAddress, tokenId) {
     const metadata = resp.data;
     return metadata
   } catch (e) {
-    console.error(e)
+    // console.error(e)
     return null
   }
 }
