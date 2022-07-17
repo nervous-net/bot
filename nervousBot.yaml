@@ -1,5 +1,5 @@
 config: 
-  tweet: true
+  tweet: false
   discord: true
   NFTHashtags: 
     - nft
