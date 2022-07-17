@@ -121,7 +121,7 @@ botEvents.on('PublishTwitter', async (payload) => {
   // payload.hashtags = getHashtags(payload)
   const message = getMessage(payload)
   const url = `https://etherscan.io/tx/${payload.transactionHash}`
-  
+
   tweet(`${message} \n\n${url}`, payload.contractAddress, payload.tokenId)
 
 });
@@ -139,21 +139,21 @@ botEvents.on('Publish', async (payload) => {
   logger.debug("Handling Publish event for bots")
   const tweet = nervousBotConfig.config.tweet
   const discord = nervousBotConfig.config.discord
-  if (tweet){
+  if (tweet) {
     botEvents.emit('PublishTwitter', payload)
   } else {
     logger.debug("Not publishing to Twitter")
   }
-  if (discord){
+  if (discord) {
     botEvents.emit('PublishDiscord', payload)
-  }else {
+  } else {
     logger.debug("Not publishing to discord")
   }
 
-  
+
   botEvents.emit('PublishConsole', payload)
-  
-  
+
+
 });
 
 // ---------------------------------------------------------------------------------- //
@@ -321,7 +321,13 @@ async function handleTransferEvent(from, to, tokenId, details) {
 
   payload['toName'] = await provider.lookupAddress(to);
 
+
   botEvents.emit('Publish', payload)
+  // if ((nervousBotConfig.config.mintEvents && (type == "mint")) || (nervousBotConfig.config.transferEvents && (type == "transfer"))) {
+  //   botEvents.emit('Publish', payload)
+  // }else{
+  //   logger.debug("Not publishing because it is disabled")
+  // }
 }
 
 
