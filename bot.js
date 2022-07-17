@@ -163,7 +163,7 @@ botEvents.on('Publish', async (payload) => {
 function getMessage(payload) {
 
   payload.to = payload.to.slice(0, 5)
-  payload.from = payload.to.slice(0, 5)
+  payload.from = payload.from.slice(0, 5)
   if (payload.type == 'mint') {
     return templates['mint'](payload)
   }
